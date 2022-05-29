@@ -42,7 +42,7 @@ public class Home extends javax.swing.JFrame implements ActionListener {
         graficoButton.addActionListener(this);
         algButton.addActionListener(this);
     }
-
+    
     void print(long arr[]) {
         int n = arr.length;
         for (int i = 0; i < n; i++) {
@@ -51,7 +51,7 @@ public class Home extends javax.swing.JFrame implements ActionListener {
             }
         }
     }
-
+    
     private final Runnable Algoritmos = new Runnable() {
         @Override
         public void run() {
@@ -106,7 +106,7 @@ public class Home extends javax.swing.JFrame implements ActionListener {
                 g.criarGrafico("Radix Sort", finish - start, columnName);
 
                 // Impressão 
-                print(arr);
+                // print(arr);
 
                 // RADIX SORT FINAL  
                 // QUICK SORT INICIO   
@@ -128,7 +128,7 @@ public class Home extends javax.swing.JFrame implements ActionListener {
                 g.criarGrafico("Quick Sort", finish - start, columnName);
 
                 // Impressão
-                print(arr);
+                // print(arr);
 
                 // QUICK SORT FINAL 
                 // BUBBLE SORT INICIO 
@@ -149,7 +149,7 @@ public class Home extends javax.swing.JFrame implements ActionListener {
                 g.criarGrafico("Bubble Sort", finish - start, columnName);
 
                 // Impressão
-                print(arr);
+                // print(arr);
 
                 // BUBBLE SORT FINAL   
                 load.setVisible(false);

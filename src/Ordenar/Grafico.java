@@ -5,7 +5,7 @@
  */
 package Ordenar;
 
-import java.awt.Image;
+
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -37,7 +37,7 @@ public class Grafico extends javax.swing.JFrame {
     public void criarGrafico(String alg,long mili,String time) throws IOException {
         Double value =(double) mili;
         value/=1000;
-        linha.addValue(value,alg,time);
+        linha.addValue(value,alg+" ("+(mili/1000.0)+")",time);
     }   
      
     
