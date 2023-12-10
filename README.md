@@ -1,40 +1,40 @@
-# Ordenação de Dados
+# Data Sorting
 
-Este projeto implementa algoritmos de ordenação de dados em Java e provê uma interface gráfica para testá-los.
+This project implements data sorting algorithms in Java and provides a graphical interface to test them.
 
-## Algoritmos Implementados
+## Implemented Algorithms
 
 - Bubble Sort
-- Quick Sort 
+- Quick Sort
 - Radix Sort
 
-## Funcionalidades
+## Features
 
-- Seleção de arquivo CSV para ordenação 
-- Escolha da coluna numérica a ser ordenada
-- Execução dos 3 algoritmos de ordenação
-- Medição de tempo de execução
-- Exibição de resultados e tempos em tabela
-- Geração de gráfico comparativo dos tempos
+- Selection of a CSV file for sorting
+- Choice of the numeric column to be sorted
+- Execution of all three sorting algorithms
+- Measurement of execution time
+- Display of results and times in a table
+- Generation of a comparative time graph
 
 ## Interface
 
-A interface gráfica foi construída usando Swing e provê:
+The graphical interface was built using Swing and provides:
 
-- Botão para seleção do arquivo CSV
-- Caixa de seleção para escolher coluna numérica
-- Botão para executar algoritmos 
-- Tabela com resultados e tempos
-- Botão para exibir gráfico
+- Button for selecting the CSV file
+- Dropdown for choosing the numeric column
+- Button to execute algorithms
+- Table with results and times
+- Button to display the graph
 
-## Pré-requisitos
+## Prerequisites
 
 - Java 8+
 
-## Executando
+## Running
 
-Para executar o projeto, basta compilar e executar a classe Home.java.
+To run the project, simply compile and execute the Home.java class.
 
-## Licença
+## License
 
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE para detalhes.
+This project is licensed under the MIT License - see the LICENSE file for details.
