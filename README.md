@@ -35,6 +35,12 @@ The graphical interface was built using Swing and provides:
 
 To run the project, simply compile and execute the Home.java class.
 
+## Demo
+
+![Demo 1](https://github.com/WillGolden80742/Ordenar/assets/91426752/e7b976d9-a7fe-4bc6-82b9-69a5aa1a1d74)
+
+![Demo 2](https://github.com/WillGolden80742/Ordenar/assets/91426752/5e46b283-1eb0-41ee-9b5a-4a3115c01bca)
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
